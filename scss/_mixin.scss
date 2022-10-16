@@ -1,0 +1,29 @@
+@mixin item($width,  $bRadius){
+    width: $width;
+   
+    border: 0.3px solid rgba(130, 130, 130, 1);
+    border-radius: $bRadius ;
+}
+@mixin img( $width, $height, $bRadius ){
+    img{
+        display: block;
+        width: $width;
+        height: $height; 
+        border-radius: $bRadius;
+    }
+    
+}
+@mixin baner($bgColor, $color, $fonts, $height, $width){
+    width: $width;
+    height: $height;
+    background-color: $bgColor;
+    color: $color;
+    font-family: $fonts;
+}
+@mixin text($color, $font, $fSize, $lHeight, $vAlign){
+    color: $color;
+    font-family: $font;
+    font-size: $fSize;
+    line-height: $lHeight;
+    vertical-align:  $vAlign;
+}
