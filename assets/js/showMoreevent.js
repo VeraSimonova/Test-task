@@ -5,6 +5,5 @@ let times = document.querySelectorAll('.product-list__item__info__time');
         for(let time of times){
             time.style.flexWrap = 'wrap';
             time.style.flexDirection = 'row';
-            time.style.bottom = '80px';
         } 
     });
